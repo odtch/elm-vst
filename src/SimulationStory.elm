@@ -14,7 +14,6 @@ import Machine
 import Animation
 import Story exposing (..)
 import AnimationFrame
-import Example
 import VisualizationHtml exposing (..)
 
 
@@ -33,7 +32,7 @@ create story =
 
 init : ( Model, Cmd Msg )
 init =
-    ( { simulation = Example.sim3
+    ( { simulation = Simulation.empty
       , player = Story.start Story.empty
       }
     , Cmd.none

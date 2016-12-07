@@ -1,4 +1,4 @@
-module ExampleView exposing (..)
+module Main exposing (..)
 
 import Html exposing (Html)
 import Html.Attributes as HA
@@ -16,7 +16,6 @@ import Machine
 import Animation
 import Story
 import AnimationFrame
-import Example
 import VisualizationHtml exposing (..)
 
 
