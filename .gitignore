@@ -2,3 +2,9 @@
 elm-stuff/
 # elm-repl generated files
 repl-temp-*
+# Distribution
+dist/
+# Dependency directories
+node_modules
+# Desktop Services Store on macOS
+.DS_Store
