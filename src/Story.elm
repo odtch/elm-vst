@@ -26,6 +26,11 @@ type alias Player msg =
     }
 
 
+empty : Story msg
+empty =
+    { events = [] }
+
+
 create : List (Action msg) -> Story msg
 create actions =
     let
